@@ -1,5 +1,5 @@
 
-#### Login panel in react-native
+## Login panel in react-native
 
 ### How to run the code
 * npm install
