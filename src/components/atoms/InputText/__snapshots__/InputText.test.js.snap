@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<TextInput
+  onChangeText={[Function]}
+  placeholder="placeholder for tests"
+  secureTextEntry={false}
+  style={
+    Object {
+      "borderBottomColor": "black",
+      "borderBottomWidth": 2,
+      "height": 40,
+      "marginBottom": 10,
+      "width": 600,
+    }
+  }
+  underlineColorAndroid="transparent"
+  value=""
+/>
+`;
