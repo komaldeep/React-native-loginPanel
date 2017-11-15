@@ -1,8 +1,8 @@
 {
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 6528,
+  "packagerPid": 10976,
   "expoServerNgrokUrl": "https://p2-evn.komaldeep.freiraum.exp.direct",
   "packagerNgrokUrl": "https://packager.p2-evn.komaldeep.freiraum.exp.direct",
-  "ngrokPid": 6547
+  "ngrokPid": 10989
 }

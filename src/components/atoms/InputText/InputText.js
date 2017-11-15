@@ -29,7 +29,7 @@ export default class InputText extends Component {
     secureTextEntry: false,
   }
 
-  inputValue = (text)=> {
+  inputValue=(text)=>{
     this.setState({
       text
     })

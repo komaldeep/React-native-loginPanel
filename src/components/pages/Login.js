@@ -55,6 +55,7 @@ class Login extends PureComponent {
         >
           LOGIN
         </Button>
+
         <Button
           onClick={this.registerClick}
         >

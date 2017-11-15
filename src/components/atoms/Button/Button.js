@@ -11,13 +11,10 @@ const viewport = {
 
 const Button = ({ children, onClick }) => {
 
-  const buttonPress = () =>{
-    onClick();
-  }
-
   return (
     <TouchableOpacity
-      onPress={buttonPress}
+      testID={'button'}
+      onPress={onClick}
       style={styles.button}
     >
       <Text style={styles.buttonText}>
@@ -44,7 +41,7 @@ const styles = StyleSheet.create({
     display: 'flex',
     backgroundColor:'#000000',
     width: viewport.fullWidth* 0.80,
-    padding: viewport.fullWidth * 0.03,
+    padding: viewport.fullWidth * 0.02,
     alignItems:'center',
     justifyContent:'center',
     marginBottom:10,

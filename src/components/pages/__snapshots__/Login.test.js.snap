@@ -1,7 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`on click of button 1`] = `<Connect(Login) />`;
-
 exports[`renders without crashing 1`] = `
 <View
   style={
@@ -69,11 +67,11 @@ exports[`renders without crashing 1`] = `
         "justifyContent": "center",
         "marginBottom": 10,
         "opacity": 1,
-        "padding": 22.5,
+        "padding": 15,
         "width": 600,
       }
     }
-    testID={undefined}
+    testID="button"
     tvParallaxProperties={undefined}
   >
     <Text
@@ -115,11 +113,11 @@ exports[`renders without crashing 1`] = `
         "justifyContent": "center",
         "marginBottom": 10,
         "opacity": 1,
-        "padding": 22.5,
+        "padding": 15,
         "width": 600,
       }
     }
-    testID={undefined}
+    testID="button"
     tvParallaxProperties={undefined}
   >
     <Text

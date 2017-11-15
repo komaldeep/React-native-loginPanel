@@ -13,7 +13,8 @@
     "jest-expo": "^22.0.0",
     "jest-serializer-enzyme": "^1.0.0",
     "react-native-scripts": "1.7.0",
-    "react-test-renderer": "16.0.0-beta.5"
+    "react-test-renderer": "16.0.0-beta.5",
+    "sinon": "^4.1.1"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
@@ -34,6 +35,7 @@
     ]
   },
   "dependencies": {
+    "enzyme-adapter-react-16": "^1.0.4",
     "expo": "^22.0.2",
     "react": "16.0.0-beta.5",
     "react-dom": "16.0.0-beta.5",

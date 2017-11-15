@@ -1,6 +1,6 @@
 import React from 'react';
+import findById from './../../../../test/find';
 import { shallow, mount } from 'enzyme'
-import toJson from 'enzyme-to-json';
 import Button from './Button';
 import renderer from 'react-test-renderer';
 
@@ -9,10 +9,12 @@ test('renders without crashing', () => {
   expect(rendered).toMatchSnapshot();
 });
 
-test('on click of button', () => {
-  const component = shallow(<Button
-    onClick={()=>{}}>
+test('onPress of button', () => {
+  const component = renderer.create(<Button
+    onClick={()=>{}}
+  >
     BUTTON
-    </Button>);
-  component.simulate( 'onPress' );
+  </Button>).toJSON();
+
+  expect(findById(component, 'button')).toBeDefined()
 });
